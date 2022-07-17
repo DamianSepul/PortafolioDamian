@@ -1,18 +1,22 @@
-import { HiUserCircle, HiTerminal, HiOutlineBan} from "react-icons/hi";
+import { HiUserCircle, HiHome,HiDocumentText, HiPhone} from "react-icons/hi";
 export const SideBarData =  [
     {
         title: "Home",
-        icon: <HiUserCircle size={42}/>,
-        link: "www.google.com"
+        icon: <HiHome size={42}/>,
+        link: "/home"
     },
     {
-        title: "pito",
-        icon: <HiTerminal size={42}/>,
-        link: "www.google.com"
+        title: "About me",
+        icon: <HiUserCircle size={42}/>,
+        link: "/aboutme"
     },{
-        title: "de Perro",
-        icon: <HiOutlineBan size={42}/>,
-        link: "www.google.com"
-    },
+        title: "Resume",
+        icon: <HiDocumentText size={42}/>,
+        link: "/resume"
+    },{
+        title: "Contact",
+        icon: <HiPhone size={42}/>,
+        link: "/contact"
+    }
 ]
  
