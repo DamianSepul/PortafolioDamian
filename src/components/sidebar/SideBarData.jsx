@@ -6,7 +6,7 @@ export const SideBarData =  [
         link: "/home"
     },
     {
-        title: "About me",
+        title: "About",
         icon: <HiUserCircle size={42}/>,
         link: "/aboutme"
     },{

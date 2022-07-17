@@ -1,19 +1,20 @@
 import '../../stylesheets/SideBar.css'
 import {SideBarData} from "./SideBarData"
-import {Profile} from "./profile/Profile"
+import Profile from './profile/Profile'
 //Esto hay que cambiarlo cuando ya este enrutando con nodejs
 // Recarga la pagina cada que cambia de link, eso no debe ser
 
 export const SideBar = () => {
     return (
         <div className='SideBar'>
+          <Profile />
             <ul className='SideBarList'>
             {SideBarData.map((val,key)=>{
                 return (
                   <li
                     key={key}
                     className="row"
-                    id={window.location.pathname == val.link ? "active": ""}
+                    id={window.location.pathname === val.link ? "active": ""}
                     onClick={() => {
                       window.location.pathname = val.link;
                     }}

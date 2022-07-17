@@ -1,9 +1,14 @@
+import Image from "./Image";
+import ButtonProfile from "./ButtonProfile.jsx";
+
 const Profile = () => {
     return ( 
-        <div>
-            
-        </div>
-     );
+    <>
+    <Image />
+    <ButtonProfile />
+    
+    </> 
+    );
 }
  
 export default Profile;

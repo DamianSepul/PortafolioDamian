@@ -1,0 +1,53 @@
+.ProfileImage{
+    width: 140px;
+    align-items: center;
+    margin-left: 80px;
+    border: 8px solid #2c2f3f;
+}
+
+p{
+    color:#fefffe;
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+h2{
+    color: #fefffe;
+    background-color: #fefffe;
+    justify-content: center;
+    display: flex;
+}
+
+
+.ButtonProfile {
+    align-items: center;
+    color: #fefffe;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    padding: 20px;
+    
+}
+
+.ButtonProfile #git{
+  margin: auto;
+  border-radius: 50%;
+}
+.ButtonProfile #linkedin{
+   margin: auto;
+   border-radius: 50%;
+}
+
+a:link, a:visited{
+    color:#fefffe;
+  
+}
+
+a:hover, a:active {
+    color:#fefffe;
+    background-color: transparent;
+
+
+}
