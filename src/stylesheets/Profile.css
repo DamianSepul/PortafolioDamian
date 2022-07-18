@@ -2,15 +2,18 @@
     width: 140px;
     align-items: center;
     margin-left: 80px;
+    margin-right: 80px ;
     border: 8px solid #2c2f3f;
+    margin-top: 30px;
 }
 
 p{
     color:#fefffe;
     display: flex;
     justify-content: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Hack;
     font-size: larger;
+
 }
 
 h2{

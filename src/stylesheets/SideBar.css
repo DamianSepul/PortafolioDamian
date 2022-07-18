@@ -1,7 +1,12 @@
 .SideBar{
     height: 100%;
-    width: 300px;
+    max-width: 400px;
     background-color:#1b1b32;
+    flex: 1 1 0;
+    position:absolute;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .SideBarList{
@@ -20,7 +25,7 @@
     color:#fefffe;
     justify-content: center;
     align-items: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Hack;
     border-radius: 15px;
 }
 

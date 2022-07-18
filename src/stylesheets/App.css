@@ -1,9 +1,9 @@
 .App {
- 
-  height: 100vw;
+
+  display: flex;
 }
 
-body{
+.App #ContainerHome{
   margin: 0;
   padding: 0;
 }
