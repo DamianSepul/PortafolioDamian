@@ -7,15 +7,19 @@ import Row from 'react-bootstrap/Row';
 function App() {
   return (
     <div className="App">
-      <Container  fluid id="ContainerHome">
+      <Container  id="ContainerHome">
         <Row>
           <Col  >
             <SideBar />
           </Col>
-          <Col xs={10}>
-            <Home />
-          </Col>
         </Row>
+      </Container>
+      
+      <Container fluid>
+      <Row>
+      <Col>
+      <Home /></Col>
+      </Row>
       </Container>
     </div>
   );

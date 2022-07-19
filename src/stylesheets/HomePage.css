@@ -5,13 +5,31 @@
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh;
+    ;
+ 
 }
 
 h1{
     text-align: center;
-    color: antiquewhite;
+    color: #fefffe;
     font-family: Hack;
-    padding-top: 13%;
+    padding-top: 5%;
+    font-size: 200%;
     
+}
+h3{
+    text-align: center;
+    color: #fefffe;
+    font-family: Hack;
+    padding-top: 11%;
+
+}
+
+
+.animation{
+    color: #fefffe;
+    font-family: Hack;
+    padding-top: 14px;
+    font-size: 200%;
 }

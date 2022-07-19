@@ -1,9 +1,11 @@
 .App {
-
-  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .App #ContainerHome{
   margin: 0;
   padding: 0;
 }
+
+
