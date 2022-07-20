@@ -6,7 +6,7 @@
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
-    ;
+    
  
 }
 
@@ -16,6 +16,7 @@ h1{
     font-family: Hack;
     padding-top: 5%;
     font-size: 200%;
+    margin-left: 27%;
     
 }
 h3{

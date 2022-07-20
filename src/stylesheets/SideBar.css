@@ -3,7 +3,7 @@
     max-width: 400px;
     background-color:#1b1b32;
     flex: 1 1 0;
-    position:absolute;
+    position:fixed;
     overflow: auto;
     margin-right: 10px;
 }

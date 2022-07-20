@@ -14,13 +14,13 @@ const Home = () => {
                 <p className="animation">
                <Typical 
                     loop={Infinity}
-                    wrapper="b"
+                    wrapper="p"
                     steps = {[
-                        'Software Engineer 🖥️',
+                        'Software Engineer',
                         1000,
-                        'Developer 👨‍💻',
+                        'Developer',
                         1000,
-                        'Full Stack Engineer ⌨️',
+                        'Full-Stack',
                         1000,
                     ]}
                 

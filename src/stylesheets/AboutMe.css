@@ -1,0 +1,30 @@
+.AboutMe{
+    background-color:#0a0a22;
+   
+    padding-bottom: 3px;
+    
+    font-family: Hack;
+}
+
+h1{
+    text-align: center;
+    padding-right: 11%;
+
+}
+
+.presentation{
+   
+    margin-left: 20%;
+    margin-right: 4%;
+    text-align: justify;
+}
+
+.Image{
+    margin-left: 47%;
+    width: 240px;
+}
+
+h3{
+    margin-top: 0;
+    padding-top: 25px;
+}

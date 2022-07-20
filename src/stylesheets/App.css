@@ -1,6 +1,5 @@
 .App {
-  margin: 0;
-  padding: 0;
+  height: 100vh;
 }
 
 .App #ContainerHome{
@@ -8,4 +7,7 @@
   padding: 0;
 }
 
+.App #ContainerHome2{
+  background-color: #040506;
+}
 
