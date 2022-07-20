@@ -7,24 +7,20 @@ import Contact from "./components/page-content/Contact";
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import {useRef} from 'react'
+
 
 
 function App() {
-  const xHome = useRef(null)
-  const xAbout = useRef(null)
-  const xResume = useRef(null)
-  const xContact = useRef(null)
   return (
     <div className="App">
       <header>
-        <SideBar Home={xHome} About={xAbout} Resume={xResume} Contact={xContact} />
+        <SideBar />
       </header>
       <Container fluid id="ContainerHome2">
         <Row>
           <Col>
-            <Home ref={xHome}/>
-            <AboutMe ref={xAbout}/>
+            <Home />
+            <AboutMe />
             <Resume />
             <Contact />
           </Col>

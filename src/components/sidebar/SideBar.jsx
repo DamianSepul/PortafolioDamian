@@ -1,46 +1,50 @@
 import '../../stylesheets/SideBar.css'
 import {SideBarData} from "./SideBarData"
 import Profile from './profile/Profile'
-import {useRef} from 'react'
+import {Link} from 'react-scroll'
 //Esto hay que cambiarlo cuando ya este enrutando con nodejs
 // Recarga la pagina cada que cambia de link, eso no debe ser
 
-export const SideBar = ({Home,About,Resume,Contact}) => {
-  
+export const SideBar = () => {
 
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: 'smooth'
-    })
-  }
     return (
         <div className='SideBar'>
           <Profile />
             <ul className='SideBarList'>
-            {SideBarData.map((val,key)=>{
-                return (
-                  <li
-                    key={key}
-                    className="row"
-                    id={window.location.pathname === val.link ? "active": ""}
-                    onClick={() => {
-                      if (val.title==="Home")
-                      scrollToSection(Home);
-                      if (val.title==="About")
-                      scrollToSection(About);
-                      if (val.title==="Resume")
-                      scrollToSection(Resume);
-                      if (val.title ==="Contact")
-                      scrollToSection(Contact)
-                    }}
-                  >
-                    {" "}
-                    <div id='icon'>{val.icon}</div>
-                    <div id='title'>{val.title}</div>
-                  </li>
-                );
-            })}
+            <Link 
+            className="row"
+            to="Home"
+            smooth={true}
+            duration={250}
+            >
+                    <div id='icon'>{SideBarData[0].icon}</div>
+                    <div id='title'>{SideBarData[0].title}</div>
+            </Link>
+            <Link 
+            className="row"
+            to="About"
+            smooth={true}
+            duration={250}>
+                    <div id='icon'>{SideBarData[1].icon}</div>
+                    <div id='title'>{SideBarData[1].title}</div>
+            </Link>
+            <Link 
+            className="row"
+            to="Resume"
+            smooth={true}
+            duration={250}>
+                    <div id='icon'>{SideBarData[2].icon}</div>
+                    <div id='title'>{SideBarData[2].title}</div>
+            </Link>
+            <Link 
+            className="row"
+            to="Contact"
+            smooth={true}
+            duration={250}
+            >
+                    <div id='icon'>{SideBarData[3].icon}</div>
+                    <div id='title'>{SideBarData[3].title}</div>
+            </Link>
             </ul>
         </div>
      );

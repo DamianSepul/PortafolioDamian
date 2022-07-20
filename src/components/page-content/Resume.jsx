@@ -1,6 +1,6 @@
 const Resume = () => {
     return ( 
-    <div>
+    <div id="Resume">
             <h1>
                 uwu
             </h1>

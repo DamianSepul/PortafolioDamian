@@ -1,11 +1,10 @@
 import '../../stylesheets/AboutMe.css'
-import Imagen from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 const AboutMe = () => {
     return (
-      <div className="AboutMe">
+      <div className="AboutMe" id='About'>
         <h1 className="text-white">About me</h1>
 
         <div className="presentation">
@@ -20,42 +19,40 @@ const AboutMe = () => {
         </div>
         <Container >
           <Row>
-            <Col xs={4}>
-              <div className="Image">
-                <Imagen
-                  src="https://avatars.githubusercontent.com/u/74329705?v=4"
-                  thumbnail
-                  fluid
-                />
-              </div>
+            <Col xs={2}>
+              
             </Col>
-            <Col xs={8}>
-               <h3 className='text-white'>Projects in which i've participated</h3>            
+            <Col >
+               <h3 className='text-white display-6'>Projects in which I've participated</h3>            
                 <Container fluid className='WorkExperience'>
                     <Row>
                         <Col>
-                        <p>
+                        <a href="https://github.com/Bold98/NutriWellness" target="_blank">
+                            <p>
                             <strong>
                                Nutriwellness:
                             </strong>
-                        </p>
+                            </p>
+                        </a>
                         </Col>
                         <Col xs={9}>
                         <p>
                             
                             Its a system dedicated to help nutritionist keep track in the patients.
-                            Tecnologies used (.NET, ASP.NET, GIT, Bootstrap, SCRUM, Design Patterns, DataBases SQL, Triggers, )
+                            Tecnologies used (.NET, ASP.NET, GIT, Bootstrap, SCRUM, Design Patterns, DataBases SQL, Triggers and Stored procedures )
 
                         </p>
                         </Col>
                     </Row>
                     <Row>
                     <Col>
+                    <a href="https://github.com/Bold98/Creativa" target="_blank">
                     <p>
                             <strong>
                                 Creativa
                             </strong>
                         </p>
+                    </a>
                     </Col>
                     <Col xs={9}>
                         <p>
@@ -65,11 +62,13 @@ const AboutMe = () => {
                     </Row>
                     <Row>
                         <Col>
+                        <a href="https://github.com/DamianSepul/TiendaDeRegalos" target="_blank">
                         <p>
                             <strong>
                                 Gift Shop
                             </strong>
                         </p>
+                        </a>
                         </Col>
                         <Col xs={9}>
                             <p>
@@ -78,11 +77,50 @@ const AboutMe = () => {
                             </p>
                         </Col>
                     </Row>
+                    
+                    
                 </Container>
+                <h4 className='text-white '>Small projects that I do for practice </h4> 
+                <Row>
+                  <Col>
+                  <a href="https://damiansepul.github.io/CalculatorReact/" target="_blank">
+                  <p>
+                            <strong>
+                                Calculator 
+                            </strong>
+                        </p>
+                  </a>
 
+                  <a href="https://github.com/DamianSepul/Compilador-Rust" target="_blank">
+                  <p>
+                            <strong>
+                                Compilator of Rust
+                            </strong>
+                        </p>
+                  </a>
+                  </Col>
+                  <Col>
+                  <a href="https://damiansepul.github.io/CounterClics/" target="_blank">
+                  <p>
+                            <strong>
+                                Counter of clicks
+                            </strong>
+                        </p>
+                  </a>
+
+                  <a href="https://damiansepul.github.io/TodoList-React/" target="_blank">
+                  <p>
+                            <strong>
+                                Todo-List 
+                            </strong>
+                        </p>
+                  </a>
+                  </Col>
+                  </Row>          
             </Col>
           </Row>
         </Container>
+        
       </div>
     );
 }

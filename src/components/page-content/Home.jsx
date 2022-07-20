@@ -3,7 +3,7 @@ import Typical from 'react-typical'
 const Home = () => {
     return ( 
         <div>
-            <div className="HomePageImage">
+            <div className="HomePageImage" id='Home'>
                 <h1 className="text-white display-2">
                     Hello World !
                 </h1>
