@@ -1,16 +1,11 @@
+
+import '../../stylesheets/Contact.css'
 const Contact = () => {
     return ( 
-        <div id='Contact'>
-            <h1>
-                owo
-            </h1>
+        <div className="Contact" id='Contact'>
+            <h1 className="text-white"> Contact me!</h1>
         </div>
      );
 }
  
 export default Contact;
-<div>
-    <h1>
-        owo
-    </h1>
-</div>

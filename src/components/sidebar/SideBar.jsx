@@ -15,7 +15,7 @@ export const SideBar = () => {
             className="row"
             to="Home"
             smooth={true}
-            duration={250}
+            duration={500}
             >
                     <div id='icon'>{SideBarData[0].icon}</div>
                     <div id='title'>{SideBarData[0].title}</div>
@@ -24,7 +24,7 @@ export const SideBar = () => {
             className="row"
             to="About"
             smooth={true}
-            duration={250}>
+            duration={500}>
                     <div id='icon'>{SideBarData[1].icon}</div>
                     <div id='title'>{SideBarData[1].title}</div>
             </Link>
@@ -32,7 +32,7 @@ export const SideBar = () => {
             className="row"
             to="Resume"
             smooth={true}
-            duration={250}>
+            duration={500}>
                     <div id='icon'>{SideBarData[2].icon}</div>
                     <div id='title'>{SideBarData[2].title}</div>
             </Link>
@@ -40,7 +40,7 @@ export const SideBar = () => {
             className="row"
             to="Contact"
             smooth={true}
-            duration={250}
+            duration={500}
             >
                     <div id='icon'>{SideBarData[3].icon}</div>
                     <div id='title'>{SideBarData[3].title}</div>

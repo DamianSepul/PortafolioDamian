@@ -1,0 +1,9 @@
+.Contact{
+    --opacidad-negro: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../images/Codigo3.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
