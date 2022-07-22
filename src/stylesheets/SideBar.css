@@ -6,6 +6,7 @@
     position:fixed;
     overflow: auto;
     margin-right: 10px;
+    
 }
 
 .SideBarList{
@@ -46,4 +47,10 @@
 
 .row #title{
     flex: 70%;
+}
+
+@media (max-width: 550px) {
+  .SideBar{
+    display: none;
+  }
 }

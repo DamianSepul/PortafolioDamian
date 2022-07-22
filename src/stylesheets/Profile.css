@@ -35,11 +35,13 @@ h2{
 }
 
 .ButtonProfile #git{
-  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   border-radius: 50%;
 }
 .ButtonProfile #linkedin{
-   margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
    border-radius: 50%;
 }
 

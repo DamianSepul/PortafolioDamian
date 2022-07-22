@@ -2,13 +2,18 @@ import '../../stylesheets/SideBar.css'
 import {SideBarData} from "./SideBarData"
 import Profile from './profile/Profile'
 import {Link} from 'react-scroll'
+
 //Esto hay que cambiarlo cuando ya este enrutando con nodejs
 // Recarga la pagina cada que cambia de link, eso no debe ser
 
 export const SideBar = () => {
-
     return (
         <div className='SideBar'>
+          <div className='menu-toggle'>
+                <div className='hamburger'>
+                        <span></span>
+                </div>
+          </div>
           <Profile />
             <ul className='SideBarList'>
             <Link 

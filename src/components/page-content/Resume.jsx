@@ -13,7 +13,7 @@ const Resume = () => {
                 <Col>
                 
                 <Col>
-                <h1 className="text-white display-4">
+                <h1 className="text-white display-2" id = "title">
                 Resume
             </h1>
             <div className="centrado">

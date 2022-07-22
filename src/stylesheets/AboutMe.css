@@ -1,9 +1,11 @@
 .AboutMe{
-    background-color:#0a0a22;
-   
-    padding-bottom: 3px;
-    
-    font-family: Hack;
+    --opacidad-negro: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../images/Codigo2.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 h1{

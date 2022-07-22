@@ -19,11 +19,12 @@ h1{
     margin-left: 27%;
     
 }
-h3{
+h4{
     text-align: center;
     color: #fefffe;
     font-family: Hack;
-    padding-top: 11%;
+    padding-top: 12%;
+ 
 
 }
 
@@ -31,6 +32,8 @@ h3{
 .animation{
     color: #fefffe;
     font-family: Hack;
-    padding-top: 14px;
+    padding-top: 10px;
     font-size: 200%;
+    text-align: left;
+ 
 }

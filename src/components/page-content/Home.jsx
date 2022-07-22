@@ -8,13 +8,13 @@ const Home = () => {
                     Hello World !
                 </h1>
 
-                <h3 className="text-white display-6">
+                <h4 className="text-white display-6">
                     {'>_'} Damián Sepúlveda 
-                </h3>
+                </h4>
                 <p className="animation">
                <Typical 
                     loop={Infinity}
-                    wrapper="p"
+                    wrapper="b"
                     steps = {[
                         'Software Engineer',
                         1000,
