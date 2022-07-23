@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PortafolioDamian/static/css/main.e78aad87.css",
+    "main.js": "/PortafolioDamian/static/js/main.d915d405.js",
+    "static/media/Codigo2.jpg": "/PortafolioDamian/static/media/Codigo2.46b203308cb7a45296c5.jpg",
+    "index.html": "/PortafolioDamian/index.html",
+    "main.e78aad87.css.map": "/PortafolioDamian/static/css/main.e78aad87.css.map",
+    "main.d915d405.js.map": "/PortafolioDamian/static/js/main.d915d405.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e78aad87.css",
+    "static/js/main.d915d405.js"
+  ]
+}
