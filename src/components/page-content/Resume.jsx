@@ -16,7 +16,7 @@ const Resume = () => {
                 Resume
             </h1>
             <div className="centrado">
-            <Button variant="primary" id='Download' className='text-center'  href="https://drive.google.com/file/d/1qFIFA4fiy9DmKKUmELl5o3ov0Qjpr3BD/view?usp=sharing" target='_blank'> Download Resume <BsDownload /> </Button>
+            <Button variant="primary" id='Download' className='text-center'  href="https://drive.google.com/file/d/11c4lVfmC_GXgRS08qkSdl1K2dHf63I5f/view?usp=sharing" target='_blank'> Download Resume <BsDownload /> </Button>
             </div>
            
             </Col>
