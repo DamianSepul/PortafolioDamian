@@ -9,7 +9,7 @@ const AboutMe = () => {
 
         <div className="presentation">
           <p>
-            Hello! Im' Damián i've 23 years old im from Hermosilo Sonora Mexico.
+            Hello! Im' Damián I've 23 years old im from Hermosilo Sonora Mexico.
             When a I was 15 years I learn code in C in Highschool, it was magic
             to me since that day I love be a developer . Today I am finishing my
             university career in Software Engineer in the school Tecnologico

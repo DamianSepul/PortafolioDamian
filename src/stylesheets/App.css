@@ -4,12 +4,11 @@
   background-color: #040506;
 }
 
-.App #ContainerHome{
-  margin: 0;
-  padding: 0;
-}
 
 .App #ContainerHome2{
   background-color: #040506;
+  margin: 0;
+  padding: 0;
+
 }
 

@@ -6,6 +6,7 @@
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
+
 }
 
 h1{
@@ -17,8 +18,9 @@ h1{
 .presentation{
    
     margin-left: 20%;
-    margin-right: 4%;
+    margin-right: 10%;
     text-align: justify;
+    background-color: #040506;
 }
 
 .Image{

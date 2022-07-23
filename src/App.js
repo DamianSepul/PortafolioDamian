@@ -17,14 +17,10 @@ function App() {
         <SideBar />
       </header>
       <Container fluid id="ContainerHome2">
-        <Row>
-          <Col>
-            <Home />
+      <Home />
             <AboutMe />
             <Resume />
             <Contact />
-          </Col>
-        </Row>
       </Container>
     </div>
   );

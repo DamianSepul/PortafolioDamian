@@ -11,7 +11,6 @@ const Resume = () => {
             <Row>
 
                 <Col>
-                
                 <Col>
                 <h1 className="text-white display-2" id = "title">
                 Resume

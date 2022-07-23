@@ -15,10 +15,12 @@ h1{
     display: flex;
 }
 #Download {
+    position: absolute;
     margin-top: 6%;
-    margin-left: 46%;
+    margin-right: 30px;
     font-size:xx-large;
     padding: 12px 30px;
+    left: 46%;
 }
 
 #Download::hover {
